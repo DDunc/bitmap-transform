@@ -1,7 +1,16 @@
 {
   "node": true,
+  "mocha": true,
   "globals": {
     "describe": true,
-    "it": true
+    "it": true,
+    "data":true,
+    "height": true,
+    "bytePosition": true,
+    "iterations": true,
+    "height": true,
+    "endianness": true,
+    "width": true,
+    "increment": true
   }
 }
