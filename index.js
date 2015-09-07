@@ -7,11 +7,12 @@ var  handle = require('./lib/handle');
 function imageReadReturn(){
 	fs.readFile(handle.filepath, function(err, data) {
 	  if (err) return console.log(err);
+	  var newData = transform(handle, data);
 
-	  fs.writeFile(handle.newFileName, transform(handle, data), function(err) {
+	  fs.writeFile(handle.newFileName, newData, function(err) {
 	    if (err) return console.log(err);
 	  });
 	});
 }
 
-imageReadReturn()
+imageReadReturn();
