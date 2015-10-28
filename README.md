@@ -8,7 +8,7 @@ RED is a built-from-scratch bitmap transformer using Node that provides command 
 
 * Runs from the command line
 * Grayscale, Color Inversion, and Color Isolation
-* Accepts pallete and non-pallete bitmaps
+* Accepts palette and non-palette bitmaps
 * Checks processors endianess and is fully functional with both big endian and little endian systems
 
 ## Motivation
@@ -20,7 +20,7 @@ Fork or clone this repo then boot up your terminal and you're all set.
 
 ## Tests
 
-Chai testing verifies correct detection of palette and non-pallete bitmap images and checks all transformation features to confirm changes.
+Chai testing verifies correct detection of palette and non-palette bitmap images and checks all transformation features to confirm changes.
 
 ## Contributors
 
